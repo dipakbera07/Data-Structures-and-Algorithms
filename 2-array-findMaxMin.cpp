@@ -11,10 +11,15 @@ int main(){
         }
     }
     int biggest=INT_MIN; //Here i use INT_MIN to compare with all elements in the array , as INT_MIN indiates as lowest possible value.
-    for(int i=0;i<size;i++){
-        if(arr[i]> biggest){ //comparing with the smallest possible value and if the condition is true ,then update the smallest variable value.
-            biggest=arr[i];
-        }
+    //****** APROACH-1 *******
+    // for(int i=0;i<size;i++){
+    //     if(arr[i]> biggest){ //comparing with the smallest possible value and if the condition is true ,then update the smallest variable value.
+    //         biggest=arr[i];
+    //     }
+    // }
+    //***** APROACH-2 *******
+    for(int i;i<size;i++){
+    biggest=max(biggest,arr[i]);
     }
     cout<<"Smallest value in the array is: "<<smallest<<endl;
     cout<<"Biggest value in the array is: "<<biggest<<endl;

@@ -62,7 +62,9 @@ int main(){
     //--- at ---(it displayes the target index value)
     vector<int>vec10={2,3,4,5};
     cout<<"printing selected index value"<<endl;
-    cout<<vec10.at(2);
+    cout<<vec10.at(2); //it prints the selected index value like vec10[2].
+
+
     
     return 0;
 }
