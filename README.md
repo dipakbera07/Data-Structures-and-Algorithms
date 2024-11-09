@@ -10,3 +10,18 @@ A) Multiple way to declare an vector.
 B) Functions in vector : 
 C) Static & Dynamic Memory Allocation
 
+05.11.24 | Day 3 - subArray,
+A) basic subArray.
+B) maximumSubarray.
+C) kadanesAlgorithm.
+
+09.11.24 | Day 4 - Majority Element
+A) brute fore approach.
+B) Optimize solution of Mjaority element.
+C) Moores algorithm to find majority element.
+
+10.11.24 | Day 5 - Time Complexity
+A) 
+B)
+C) 
+
