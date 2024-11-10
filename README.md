@@ -20,8 +20,8 @@ A) brute fore approach.
 B) Optimize solution of Mjaority element.
 C) Moores algorithm to find majority element.
 
-10.11.24 | Day 5 - Time Complexity
-A) 
-B)
-C) 
+10.11.24 | Day 5 - Time Complexity | Stocks sell & buy , Pow X^N
+A) Basics of Time Complexity.
+B) Pow of X^N .
+C) Stocks Sell & Buy - Leetcode .
 
