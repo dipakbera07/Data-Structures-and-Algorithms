@@ -1,9 +1,10 @@
 #include<iostream>
 #include<vector>
-#include<list>  //list is like a Doubly linkedList 
+#include<list>  
 using namespace std;
 
 int main(){
+//list is like a Doubly linkedList , it does not allows random memory access.
     list<int>l;
     l.push_back(2);
     l.push_back(3);

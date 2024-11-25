@@ -134,6 +134,14 @@ int main(){
     }
     */
 
+   cout<<"Vector of pair "<<endl;
+   vector<pair<int,int>>vec18={{1,2},{2,3},{4,5},{6,7}}; //here we created a vector of pair
+   vec18.push_back({3,2}); //here we have to definate make a pair first .
+   vec18.emplace_back(3,2); //in place object creation , by using emplace_back we dont heave to make pair here means dont have to use {}
+   for(pair<int,int> p : vec18){
+    cout<<p.first<<" "<<p.second<<endl;
+   }
+
     
 
 
